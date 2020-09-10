@@ -7156,6 +7156,12 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background: #fff; }
 
+ul {
+  padding: 0; }
+
+ul li {
+  list-style-type: none; }
+
 button {
   border: none;
   background: none; }
@@ -7175,6 +7181,13 @@ button {
   padding: 0.875rem 1.25rem;
   font-size: 1.2rem; }
 
+#sidebar-wrapper ul li {
+  margin: 20px;
+  text-align: center; }
+
+#sidebar-wrapper .settings {
+  top: 500px; }
+
 #page-content-wrapper {
   min-width: 100vw; }
 
@@ -7193,7 +7206,6 @@ nav .nav-item h3 {
   margin: 0 auto; }
 
 nav .left-content ul li {
-  list-style-type: none;
   display: inline-block;
   padding: 5px;
   color: #0b5640;
@@ -7216,8 +7228,7 @@ section.chose-stock ul li {
   color: #000;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
-  list-style-type: none; }
+  font-weight: 400; }
 
 section.chose-stock ul {
   padding: 0;
