@@ -7156,6 +7156,10 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background: #fff; }
 
+button {
+  border: none;
+  background: none; }
+
 #wrapper {
   overflow-x: hidden; }
 
@@ -7238,6 +7242,33 @@ section.chose-stock .col h3 {
 
 section.buyers-list {
   text-align: center; }
+
+section.buyers-list th {
+  opacity: 0.48;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  border: none; }
+
+section.buyers-list .left {
+  float: left; }
+
+section.buyers-list .left h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400; }
+
+section.buyers-list .right a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none; }
+
+section.buyers-list .right {
+  float: right; }
 
 @media (min-width: 768px) {
   #sidebar-wrapper {
