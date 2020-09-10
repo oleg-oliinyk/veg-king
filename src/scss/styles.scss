@@ -1,7 +1,104 @@
-$theme-colors: ( "primary": #FF69B4);
+$theme-colors: ( "primary": #eeeeee);
 @import "node_modules/bootstrap/scss/bootstrap";
 body {
-    color: grey;
-    background: #ffffff;
-    height: 400vh;
+    background: $white;
+    // font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+// #sidebar-wrapper .list-group {
+//     width: 15rem;
+// }
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+nav .nav-item {
+    margin-right: 24px;
+}
+
+nav .nav-item h3 {
+    color: $black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+nav .left-content ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    color: #0b5640;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 55px;
+}
+
+section.chose-stock ul li {
+    color: $black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+section.chose-stock ul {
+    padding: 0;
+    margin: 14px;
+}
+
+section.chose-stock .subtitle {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 20px rgba(16, 86, 66, 0.23);
+    border: 1px solid rgba(16, 86, 66, 0.06);
+    background-color: $white;
+}
+
+section.chose-stock .col {
+    max-width: 345px;
+}
+
+section.buyers-list {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
 }
