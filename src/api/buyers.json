@@ -1,0 +1,53 @@
+{
+    "buyers": [{
+            "id": "1",
+            "name": "Seapol",
+            "country": "Poland",
+            "wd": "5",
+            "number": "0",
+            "lsd": "No sales",
+            "price": "750",
+            "profit": "120 PLN",
+            "rating": "4.8",
+            "actions": "icons"
+
+
+        },
+        {
+            "id": "2",
+            "name": "Seapol",
+            "country": "Poland",
+            "wd": "5",
+            "number": "0",
+            "lsd": "No sales",
+            "price": "750",
+            "profit": "50 PLN",
+            "rating": "4.8",
+            "actions": "icons"
+        },
+        {
+            "id": "3",
+            "name": "Seapol",
+            "country": "Poland",
+            "wd": "5",
+            "number": "0",
+            "lsd": "No sales",
+            "price": "750",
+            "profit": "-10 PLN",
+            "rating": "4.2",
+            "actions": "icons"
+        },
+        {
+            "id": "4",
+            "name": "Seapol",
+            "country": "Poland",
+            "wd": "5",
+            "number": "0",
+            "lsd": "No sales",
+            "price": "750",
+            "profit": "+75 PLN",
+            "rating": "2.8",
+            "actions": "icons"
+        }
+    ]
+}

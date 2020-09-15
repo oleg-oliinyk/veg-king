@@ -1,0 +1,66 @@
+{
+    "products": [{
+            "img": "/img/img1.svg",
+            "seller": "Seller: VegKing",
+            "veraity": "Solist",
+            "fc": "Light Yellow",
+            "mp": "Packing",
+            "qt": "Unwashed/Unwashable",
+            "soil": "N/A",
+            "size": "45-80",
+            "packing": "1250 kg (big bags)",
+            "loc": "SE 534-61 Vedum"
+
+        },
+        {
+            "img": "/img/img2.svg",
+            "seller": "Seller: VegKing",
+            "veraity": "Solist",
+            "fc": "Light Yellow",
+            "mp": "Packing",
+            "qt": "Unwashed/Unwashable",
+            "soil": "N/A",
+            "size": "45-80",
+            "packing": "1250 kg (big bags)",
+            "loc": "SE 534-61 Vedum"
+
+        },
+        {
+            "img": "/img/img3.svg",
+            "seller": "Seller: VegKing",
+            "veraity": "Solist",
+            "fc": "Light Yellow",
+            "mp": "Packing",
+            "qt": "Unwashed/Unwashable",
+            "soil": "N/A",
+            "size": "45-80",
+            "packing": "1250 kg (big bags)",
+            "loc": "SE 534-61 Vedum"
+
+        },
+        {
+            "img": "/img/img4.svg",
+            "seller": "Seller: VegKing",
+            "veraity": "Solist",
+            "fc": "Light Yellow",
+            "mp": "Packing",
+            "qt": "Unwashed/Unwashable",
+            "soil": "N/A",
+            "size": "45-80",
+            "packing": "1250 kg (big bags)",
+            "loc": "SE 534-61 Vedum"
+
+        }, {
+            "img": "/img/img5.svg",
+            "seller": "Seller: VegKing",
+            "veraity": "Solist",
+            "fc": "Light Yellow",
+            "mp": "Packing",
+            "qt": "Unwashed/Unwashable",
+            "soil": "N/A",
+            "size": "45-80",
+            "packing": "1250 kg (big bags)",
+            "loc": "SE 534-61 Vedum"
+        }
+    ]
+}
