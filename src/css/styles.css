@@ -7261,16 +7261,16 @@ nav.navbar {
     padding: 10px;
     margin: 0 auto;
     display: inline-block; }
-  nav.navbar .left-content ul li {
+  nav.navbar ul li {
     display: inline-block; }
-    nav.navbar .left-content ul li button {
+    nav.navbar ul li button {
       display: inline-block;
       padding: 5px;
       color: #0b5640;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 500;
       text-transform: uppercase; }
-    nav.navbar .left-content ul li .btn:hover {
+    nav.navbar ul li .btn:hover {
       color: #0b5640; }
 
 section.chose-stock .content-title {
